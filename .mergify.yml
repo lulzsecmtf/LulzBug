@@ -1,0 +1,6 @@
+pull_request_rules:
+  - name: merge during work hours
+    conditions:
+      - schedule = Mon-Fri 09:00-17:00[Europe/Paris]
+    actions:
+      merge:
